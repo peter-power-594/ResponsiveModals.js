@@ -1,3 +1,8 @@
 .DS_Store
 *.log
+dist/css/theme.css
+dist/images
+dist/*.html
+dist/js/ui.js
 node_modules/*
+package-lock.json
