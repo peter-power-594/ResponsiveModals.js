@@ -308,7 +308,12 @@
 				_self.$blocker = null;
 				jModalInst.selectCurrent();
 				if ( ! jModalInst.isActive() ) {
-					_self.$body.style.overflow = 'inherit';
+					try {
+						_self.$body.style.removeProperty("overflow");
+					}
+					catch( e ) {
+						_self.$body.style.overflow = 'inherit';
+					}
 				}
 			}, 10 + _self.options.fadeDuration );
 		}
