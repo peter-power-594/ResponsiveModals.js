@@ -1,24 +1,8 @@
 {
-  "name": "responsive-modals2",
-  "version": "1.0.0",
-  "main": "dist/js/reponsivemodals.js",
-  "style": "dist/css/reponsivemodals.min.css",
-  "description": "Simple & lightweight responsive modal plugin",
-  "homepage": "https://github.com/peter-power-594/ResponsiveModals.js",
-  "repository": "peter-power-594/ResponsiveModals.js",
-  "bugs": "https://github.com/peter-power-594/ResponsiveModals.js/issues",
-  "license": "MIT",
-  "author": "Pierre-Henri Lavigne <red@phutu.red> (https://responsives-modals.phutu.red/)",
   "devDependencies": {
     "grunt": "^1.6.1",
-    "grunt-contrib-concat": "^2.1.0",
-    "grunt-contrib-connect": "^3.0.0",
-    "grunt-contrib-jshint": "^3.2.0",
-    "grunt-contrib-sass": "^2.0.0",
-    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-connect": "^4.0.0",
     "grunt-contrib-watch": "^1.1.0"
-  },
-  "dependencies": {
-    "grunt-cli": "^1.4.3"
   }
 }
