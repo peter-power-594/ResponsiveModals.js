@@ -1,4 +1,4 @@
-/*! ResponsiveModals.js
+/*! ResponsiveModals.js²
  *
  * @author Fork Copyright (c) 2023 @peter-power-594
  * @author Original Copyright (c) 2011-2023 @kylefox
@@ -410,6 +410,7 @@
 	jModal.prototype.getContext = function() {
 		var _self = this;
 		return {
+			bubbles: true,
 			detail: {
 				elm: _self.$elm,
 				$elm: _self.$elm,

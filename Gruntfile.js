@@ -4,7 +4,8 @@ module.exports = function(grunt) {
 		sass: {
 			options: {
 				style: 'compressed',
-				noSourceMap: true
+				sourcemap: 'none'
+				//noSourceMap: true
 			},
 			dist: {
 				files: {
@@ -39,7 +40,7 @@ module.exports = function(grunt) {
 		connect: {
 			server: {
 				options: {
-					 port: 8080,
+					 port: 8181,
 					 hostname: 'localhost',
 					 livereload: 35780
 				}
